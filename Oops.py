@@ -392,8 +392,8 @@ def fab(a):
         return 1
     else:
         return fab(a-1)+fab(a-2)
-fab(9)
-print(fab(9))
+a=fab(9)
+print(a)
 
 
 
